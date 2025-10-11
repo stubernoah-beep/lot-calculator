@@ -1,0 +1,26 @@
+h1{
+    color: black;
+    text-align :  center;
+    text-decoration: underline;
+}
+p{
+    margin : 0px;
+}
+#Bes{
+    color :white;
+    background-color: red;
+}
+#Bnq{
+    color: white;
+    background-color: blue;
+}
+button{ 
+    block-size: 50px;
+    inline-size: 25%;
+    margin-block: 0px;
+    
+
+}
+html{
+    background-color: grey;
+}
