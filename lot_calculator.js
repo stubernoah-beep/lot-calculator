@@ -14,8 +14,9 @@ let nbr_lot = risque/(prix*pourcentage);
 nbr_lot = Math.round(nbr_lot);
 let risque_exact = Math.round(nbr_lot*prix * pourcentage);
 
-alert("Il faut mettre "+ nbr_lot+" micro lot, avec un risque exact de " + risque_exact);
+document.getElementById("résultat").innerHTML = "Il faut mettre "+ nbr_lot+" micro lot, avec un risque exact de " + risque_exact;
 };
 
 document.getElementById("Bes").addEventListener("click", function(){calcul_lot(micro_es_prix );});
 document.getElementById("Bnq").addEventListener("click", function(){calcul_lot(micro_nq_prix);});
+
